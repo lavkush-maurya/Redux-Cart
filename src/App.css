@@ -1,0 +1,75 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+/* ============== */
+.imgclass {
+  width: 100px;
+}
+
+.container {
+  width: 10rem;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+}
+
+.button1 {
+  padding: 10px;
+  background-color: lightgreen;
+  border: none;
+  border-radius: 15px;
+}
+
+.button1:hover {
+  background-color: rgb(103, 100, 206);
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.addcart {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+}
+.cartno {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  color: rgb(223, 104, 104);
+  font-size: 30px;
+  z-index: 1;
+  font-weight: bold;
+}
+
+
+.button2 {
+  padding: 10px;
+  background-color: rgb(206, 100, 100);
+  color: black;
+  border: none;
+  border-radius: 15px;
+}
+
+.button2:hover {
+  background-color: rgb(219, 47, 101);
+  color: aliceblue;
+}
